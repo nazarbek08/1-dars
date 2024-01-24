@@ -1,0 +1,95 @@
+.box {
+    width: 500px;
+    height: 500px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmwaEiTfQ5zcDjZKzz9pAwJy1tBBiadZU2Qw&usqp=CAU');
+    margin: 0 auto;
+    animation-name: naz;
+    animation-duration: 1s;
+    animation: naz 5s infinite linear;
+    background-size: 170%;
+     background-position: center;
+
+
+
+}
+
+@keyframes naz {
+    0% {
+        background-image: url(./b.jpg);
+        border-radius: 0px;
+        margin-top: 00px;
+        margin-left: 0px;
+    }
+
+    10% {
+        background-image: url(./b.jpg);
+        border-radius: 250px;
+        transform: rotate(50deg);
+        margin-top: 2000px;
+        margin-left: 2820px;
+    }
+
+    20% {
+        background-image: url(./b.jpg);
+        border-radius: 250px;
+        transform: rotate(100deg);
+        margin-top: 00px;
+        margin-left: 4820px;
+    }
+
+    30% {
+        background-image: url(./b.jpg);
+        border-radius: 250px;
+        transform: rotate(150deg);
+        margin-top: 500px;
+        margin-left: 5600px;
+    }
+
+    40% {
+        background-image: url(./b.jpg);
+        border-radius: 250px;
+        transform: rotate(200deg);
+        margin-top: 2000px;
+        margin-left: 4820px;
+    }
+
+    50% {
+        background-image: url(./b.jpg);
+        border-radius: 250px;
+        transform: rotate(250deg);
+        margin-top: 000px;
+        margin-left: 3000px;
+    }
+
+    60% {
+        background-image: url(./b.jpg);
+        border-radius: 250px;
+        transform: rotate(300deg);
+        margin-top: 2000px;
+        margin-left: 820px;
+    }
+
+    70% {
+        background-image: url(./b.jpg);
+        border-radius: 250px;
+        transform: rotate(350deg);
+        margin-top: 1500px;
+        margin-left: 0px;
+    }
+
+    80% {
+        transform: rotate(720deg);
+        background-image: url(./b.jpg);
+        border-radius: 0px;
+        margin-top: 00px;
+        margin-left: 0px;
+    }
+
+    100% {
+        transform: rotate(720deg);
+        background-image: url(./b.jpg);
+        border-radius: 0px;
+        margin-top: 00px;
+        margin-left: 0px;
+    }
+}
